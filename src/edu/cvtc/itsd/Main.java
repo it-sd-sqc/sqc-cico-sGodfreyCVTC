@@ -297,7 +297,20 @@ public class Main {
     labelState.setForeground(Color.magenta);
     panelStatus.add(labelState);
 
+    JButton returnButton = new JButton("Return to Scan Card");
+    returnButton.setAlignmentX(JComponent.CENTER_ALIGNMENT);
+    returnButton.addActionListener(new ActionListener() {
+      @Override
+      public void actionPerformed(ActionEvent e) {
+        doneProcessing();
+      }
+    });
+    panelStatus.add(returnButton);
+
+
     panelStatus.add(Box.createVerticalGlue());
+
+
 
     // Error panel ////////////////////////////////////////////////////////////
     JPanel panelError = new JPanel();

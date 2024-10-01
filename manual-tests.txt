@@ -70,4 +70,16 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Input field should not accept more than 8 characters: 00000000
 
+# Module 5: Return to Check-in/out
+
+## Test steps
+1. Build and run CiCo.
+2. Enter 0000000000 into the field and click Update.
+3. Select Return
+
+## Expected results
+* Status screen should return to the Scan Card screen after pressing the return button or timing out. 
+
+
+
 
