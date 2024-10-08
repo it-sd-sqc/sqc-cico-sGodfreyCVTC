@@ -59,7 +59,7 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 2. Enter 00000000 into the field and click Update.
 
 ## Expected results
-* Should display "Developer" for the user name.
+* Should display "Developer" for the username.
 
 # Module 4: Allowed number of characters
 
@@ -83,3 +83,13 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 
 
+# Module 6: Implement a minimalist and more professional design.
+
+## Test steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field and click Update.
+3. Wait for status panel to close.
+
+## Expected results
+* Color scheme of the main panel and status panel should both
+follow the same color scheme and be monochromatic.
